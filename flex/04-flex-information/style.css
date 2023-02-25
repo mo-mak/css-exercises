@@ -12,6 +12,37 @@ img {
   font-weight: 900;
 }
 
+/* my solution */
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.images-container {
+  border: 2px solid red;
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.image-item {
+  border: 2px solid red;
+  width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
