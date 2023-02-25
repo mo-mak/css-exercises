@@ -25,3 +25,74 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* My solution */
+
+/* * {
+  border: 2px solid red;
+} */
+
+body {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+}
+
+.header, 
+.content, 
+.footer {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header .left-links {
+  display: flex;
+  gap: 15px;
+}
+
+.header .right-links {
+  display: flex;
+  gap: 15px;
+}
+
+.content {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  justify-content: space-between;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+.footer .left-links {
+  display: flex;
+  gap: 15px;
+}
+
+.footer .right-links {
+  display: flex;
+  gap: 15px;
+}
